@@ -93,50 +93,48 @@
   margin-top: 20px;
 }
 
-.directory-contaner{
+.course-left{
   width: 740px;
   background: #FFFFFF;
 }
 
-.course-list{
+.course-item{
   line-height: 37px;
   padding: 20px;
 }
 
-.course-item{
+.course-item-dt{
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.course-item-dd{
   display: flex;
   justify-content: space-between;
+  align-items:center;
   font-size:14px;
   color: #666666;
   cursor: pointer;
   padding: 0 50px;
 }
 
-.course-item-title{
-  font-weight: 600;
-  padding-left: 30px;
-}
 
-.course-item img{
+.course-item-play{
+  display: inline-block;
   width: 16px;
   height: 16px;
+  background-image: url("./../img/course_detail_play.png")
 }
 
-
-.course-item:hover{
+.course-item-dd:hover{
   background-color: #f6f8fd;
 }
 
-.course-item:hover .now-img{
-  display: none;
+.course-item-play:hover{
+  background-image: url("./../img/course_detail_play2.png")
 }
 
-.course-item:hover{
-  background-image: url("./../img/course_detail_play2.png");
-  background-repeat: no-repeat;
-}
-
-.sodebar-contaner{
+.course-right{
   width: 320px;
 }
 
