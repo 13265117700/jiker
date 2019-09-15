@@ -175,13 +175,14 @@
   display: inline-block;
 }
 
-.course-correlati-list{
+.course-correlati{
   height: 380px;
-  background: #ffffff;
+  background: #FFFFFF;
   margin-top: 20px;
 }
 
-.course-correlati-item-title{
+
+.course-correlati-title{
   font-weight:bold;
   padding: 20px 0 0 20px;
 }
